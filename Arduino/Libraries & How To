@@ -1,0 +1,12 @@
+Credit to MHeironimus & Bode for the below libraries
+
+When installing the libraries you may have to edit the Joystick.h File to directly look for the DynamicHID Library as it needs to be in the repository of the file. In my case this looked like: #include "C:\Users\#####\Documents\Arduino\libraries\DynamicHID\DynamicHID.h"
+
+Installation of these libraries is mandatory and the Handbrake will not work otherwise.
+
+Joystick library : https://github.com/MHeironimus/Arduin…
+HX711 library : https://github.com/bogde/HX711
+
+Once installed use the serial plotter function within Arduino IDE to check the function of the Loadcell, if you find the loadcell is working backwards (i.e you have to push it forward to mae it work) simply edit line 48 in the sketch to add a - infront of scale.
+
+After using serial plotter open Game Controller in windows and look for the Arduino, it will show up as a USB gamepad where you will be able to calibarte it and see the value move up/down.
