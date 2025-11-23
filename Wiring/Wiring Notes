@@ -1,3 +1,5 @@
 Wiring Notes
 
 Cut Pin 14 and link to ground to switch the Amplifier PCB to 80Hz for faster feedback 
+
+Credit to DIY Sim Studio for the wiring diagram
