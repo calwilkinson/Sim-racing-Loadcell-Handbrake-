@@ -1,4 +1,4 @@
-Credit to MHeironimus & Bode for the below libraries
+Credit to MHeironimus & Bodge for the below libraries
 
 When installing the libraries you may have to edit the Joystick.h File to directly look for the DynamicHID Library as it needs to be in the repository of the file. In my case this looked like: #include "C:\Users\#####\Documents\Arduino\libraries\DynamicHID\DynamicHID.h"
 
